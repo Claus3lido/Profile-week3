@@ -132,3 +132,10 @@ p {
     margin: 0 20px;
   }
 }
+
+@media (min-width: 576px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
